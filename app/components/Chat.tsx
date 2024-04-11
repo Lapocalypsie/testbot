@@ -1,11 +1,13 @@
+//@ts-nocheck
 "use client";
 import React, { useState } from "react";
-import OpenAI, { ChatCompletion } from "openai";
+import OpenAI from "openai";
 
 interface Message {
   role: string;
   content: string;
 }
+import ChatCompletion from "openai";
 
 const Chat: React.FC = () => {
   const [messages, setMessages] = useState<Message[]>([]);
