@@ -1,0 +1,10 @@
+/* components/Chat.module.css */
+
+.user-bubble {
+    @apply bg-green-500 text-white rounded-lg max-w-md p-3 mb-2 self-end;
+  }
+  
+  .bot-bubble {
+    @apply bg-blue-500 text-white rounded-lg max-w-md p-3 mb-2;
+  }
+  
